@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  font-family: 'Space Grotesk', sans-serif;
+  margin: 0;
+  width: 100vw;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+label {
+  display: block;
+}
+
+nav a {
+  display: inline-block;
+  margin: 1em;
+  color: black;
+  cursor: pointer;
+}
+
+form div {
+  margin: 1em;
+  display: inline-block;
+}
+
+.logo {
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  position: fixed;
+  transition: top 0.6s;
+  width: 100%;
+  top: 0;
+  background-color: #f2f2f2;
+  margin-right: 20px;
+}
+
+.navbar--hidden {
+  top: -120px;
+}
+
+#pic {
+  image-rendering: auto;
+  image-rendering: crisp-edges;
+  image-rendering: pixelated;
+
+  image-rendering: -webkit-optimize-contrast;
+  max-width: 300px;
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+@media only screen and (max-width: 500px) {
+  body {
+    width: 100vw;
+  }
+  #home {
+    margin: 25px;
+  }
+  #about {
+    justify-content: flex-start;
+  }
+  .navbar {
+    font-size: 12px;
+  }
+}
