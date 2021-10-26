@@ -109,7 +109,7 @@ export default function Home() {
             detail="Friends Uber, request or help out a friend"
             techs={['MongoDB', 'Express', 'React', 'Node.js', 'Socket.io']}
             githubUrl="https://github.com/Brownie-Batter/graceshopper-project"
-            deployUrl="https://graceshopper-fullstack.herokuapp.com/"
+            deployUrl="https://fuber-fullstack.herokuapp.com/"
             devs={2}
           />
         </Grid>
@@ -120,7 +120,6 @@ export default function Home() {
           style={{
             color: 'black',
             width: '40%',
-            borderRadius: '50% 100px 0 0',
           }}
         />
         <Contact />
